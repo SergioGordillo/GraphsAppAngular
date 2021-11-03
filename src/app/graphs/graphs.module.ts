@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
+import { ChartsModule } from 'ng2-charts';
+
 import { GraphsRoutingModule } from './graphs-routing.module';
 import { BarsComponent } from './pages/bars/bars.component';
 import { DoubleBarsComponent } from './pages/double-bars/double-bars.component';
@@ -19,7 +21,8 @@ import { GraphBarComponent } from './components/graph-bar/graph-bar.component';
   ],
   imports: [
     CommonModule,
-    GraphsRoutingModule
+    GraphsRoutingModule,
+    ChartsModule
   ]
 })
 export class GraphsModule { }
