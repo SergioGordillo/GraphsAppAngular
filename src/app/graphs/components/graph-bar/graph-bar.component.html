@@ -1,1 +1,18 @@
-<p>graph-bar works!</p>
+<div class="row">
+    <div class="col"> 
+        <div style="display: block">
+            <h2>{{title}}</h2>
+            <canvas baseChart
+                    [datasets]="barChartData"
+                    [labels]="barChartLabels"
+                    [options]="barChartOptions"
+                    [legend]="barChartLegend"
+                    [chartType]="barChartType">
+            </canvas>
+          </div>
+          <button 
+            (click)="randomize()"
+            class="btn btn-primary float-end"
+            >Update</button>
+    </div>
+</div>
