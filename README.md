@@ -5,7 +5,7 @@
 Yes. If you want to check it, you need to:
 
 1) Download the project and install Node.js (https://nodejs.org/es/). After that, with the command `npm install` (https://docs.npmjs.com/cli/v7/commands/npm-install), you will install all the node_modules needed for the app to work. <br>
-2) Download the no-SQL DB for this project. You can download it from here (). <br>
+2) Download the no-SQL DB for this project. You can download it from here (https://github.com/SergioGordillo/GraphsAppAngularDB). <br>
 3) Ok. So, open with your favourite IDE both projects (GraphsAppAngular and GraphsAppAngularDB). <br>
 4) GraphsAppAngularDB will run with the command `json-server --watch db.json` (https://www.npmjs.com/package/json-server). <br>
 5) GraphsAppAngular will run with the command `ng serve -o`. <br>
