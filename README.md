@@ -1,3 +1,5 @@
+<img src="https://github.com/SergioGordillo/GraphsAppAngular/blob/main/graphsAppAngular.png" alt="GraphsAppAngular"/>
+
 # Can I try this web app? :open_mouth:
 
 Yes. If you want to check it, you need to:
